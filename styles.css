@@ -1,0 +1,123 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/Norse-Bold.otf);
+}
+
+.container {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.columnLeft {
+  background-image: url("img/bg.jpeg");
+  width: 687px;
+  height: 1030px;
+}
+
+.logoContainer {
+  display: flex;
+  height: 370px;
+  width: 100%;
+  justify-content: stretch;
+  align-items: flex-end;
+}
+
+.logoBox {
+  display: flex;
+  height: 150px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+}
+
+.logoText {
+  font-family: myFirstFont;
+  color: white;
+  opacity: 1;
+  font-size: 150px;
+}
+
+.logo img {
+  height: 100%;
+  opacity: 1;
+}
+
+.columnRight {
+  width: 900px;
+  height: 1030px;
+  background-color: rgb(245, 245, 245);
+}
+
+.rowOne {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  height: 370px;
+}
+
+.headerTextBox {
+  padding: 0px 50px 60px 50px;
+}
+
+#headerText {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.rowTwo {
+  width: 100%;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+.formContainer {
+  padding-top: 30px;
+}
+
+.col1 {
+  padding-bottom: 30px;
+}
+
+.col2 {
+  padding-left: 70px;
+  padding-bottom: 30px;
+}
+
+.regLabel {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-weight: bold;
+}
+
+.btnContainer {
+  margin: 45px;
+}
+
+#btnSignUp {
+  background-color: #596d48;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 240px;
+  height: 65px;
+}
+
+.rowThreeText {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+a:active {
+  color: green;
+}
+
+a:visited {
+  color: green;
+}

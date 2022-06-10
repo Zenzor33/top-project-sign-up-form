@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up form</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- 
+        Div class="container"
+          Div class="columnLeft"
+            div class="logo"
+            
+          Div class="columnRight"
+            div class="rowOne"
+            div class="rowTwo"
+            div class="rowThree"
+    -->
+    <div class="container">
+      <div class="columnLeft">
+        <div class="logoContainer">
+          <div class="logoBox">
+            <img src="img/odin-lined.png" /> <span class="logoText">Odin</span>
+          </div>
+        </div>
+      </div>
+      <div class="columnRight">
+        <div class="rowOne">
+          <div class="headerTextBox">
+            <div id="headerText">
+              <p>
+                This is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams.
+                <br />
+                Sign up now to get started!
+              </p>
+              <p>You <i>know</i> you want to!</p>
+            </div>
+          </div>
+        </div>
+        <div class="rowTwo">
+          <div id="headerText">Let's do this!</div>
+          <div class="formContainer">
+              <form id="myform" method="get" action="#">
+            <table class="formTable">
+              <tr class="formRow">
+                <td class="col1">
+                  <label for="fname" class="regLabel">FIRST NAME</label><br />
+                  <input type="text" name="fname" />
+                </td>
+                <td class="col2">
+                  <label for="lname" class="regLabel">LAST NAME</label><br />
+                  <input type="text" name="lname" />
+                </td>
+              </tr>
+              <tr class="formRow">
+                <td class="col1">
+                  <label for="email" class="regLabel">EMAIL</label><br />
+                  <input type="email" name="email" />
+                </td>
+                <td class="col2">
+                  <label for="phone" class="regLabel">PHONE NUMBER</label><br />
+                  <input type="tel" name="phone" />
+                </td>
+              </tr>
+              <tr>
+                <td class="col1">
+                  <label for="password" class="regLabel">PASSWORD</label><br />
+                  <input type="password" name="password" />
+                </td>
+                <td class="col2">
+                  <label for="password2" class="regLabel"
+                    >CONFIRM PASSWORD</label
+                  ><br />
+                  <input type="password" name="password2" />
+                </td>
+              </tr>
+            </table>
+        </form>
+          </div>
+        </div>
+        <div class="rowThree">
+          <div class="btnContainer">
+            <button class="btn" id="btnSignUp" form="myform" value="Update">Create Account</button>
+            <p class="rowThreeText">
+              Already have an account? <a href="./index.html">Log in</a></p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
