@@ -121,3 +121,16 @@ a:active {
 a:visited {
   color: green;
 }
+
+input {
+  background-color: rgb(245, 245, 245);
+  border-color: #e5e7eb;
+  border-radius: 5px;
+  border-style: groove;
+  height: 25px;
+}
+
+input:focus {
+  border-color: blue;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
