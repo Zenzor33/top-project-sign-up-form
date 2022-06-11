@@ -41,34 +41,34 @@
             <table class="formTable">
               <tr class="formRow">
                 <td class="col1">
-                  <label for="fname" class="regLabel">FIRST NAME</label><br />
-                  <input type="text" name="fname" />
+                  <label for="fname" class="regLabel">FIRST NAME*</label><br />
+                  <input type="text" name="fname" required/>
                 </td>
                 <td class="col2">
-                  <label for="lname" class="regLabel">LAST NAME</label><br />
-                  <input type="text" name="lname" />
+                  <label for="lname" class="regLabel">LAST NAME*</label><br />
+                  <input type="text" name="lname" required/>
                 </td>
               </tr>
               <tr class="formRow">
                 <td class="col1">
-                  <label for="email" class="regLabel">EMAIL</label><br />
-                  <input type="email" name="email" />
+                  <label for="email" class="regLabel">EMAIL*</label><br />
+                  <input type="email" name="email" required/>
                 </td>
                 <td class="col2">
-                  <label for="phone" class="regLabel">PHONE NUMBER</label><br />
-                  <input type="tel" name="phone" />
+                  <label for="phone" class="regLabel">PHONE NUMBER*</label><br />
+                  <input type="tel" name="phone" required/>
                 </td>
               </tr>
               <tr>
                 <td class="col1">
-                  <label for="password" class="regLabel">PASSWORD</label><br />
-                  <input type="password" name="password" />
+                  <label for="password" class="regLabel">PASSWORD*</label><br />
+                  <input type="password" name="password" id='password1' required/>
                 </td>
                 <td class="col2">
                   <label for="password2" class="regLabel"
-                    >CONFIRM PASSWORD</label
+                    >CONFIRM PASSWORD*</label
                   ><br />
-                  <input type="password" name="password2" />
+                  <input type="password" name="password2" id='password2' required/>
                 </td>
               </tr>
             </table>
@@ -85,5 +85,6 @@
         </div>
       </div>
     </div>
+    <script src="javascript.js"></script>
   </body>
 </html>
